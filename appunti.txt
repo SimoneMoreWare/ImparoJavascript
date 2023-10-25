@@ -1,0 +1,17 @@
+Html -> scheletro
+Css -> vestito
+Javascript -> dà dinamicità alla pagina
+
+In JS ci sono delle API
+
+le varie schede eseguono il proprio file JS
+
+letto dall'alto verso il basso
+
+è un linguaggio interpretato
+
+<script async>...</script> -> viene eseguito lo script appena possibile
+<script defer>...</script> -> viene eseguito lo script nell'ordine in cui è scritto
+
+//commento
+/* commento multiriga */
