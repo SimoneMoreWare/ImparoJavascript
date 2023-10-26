@@ -15,3 +15,11 @@ letto dall'alto verso il basso
 
 //commento
 /* commento multiriga */
+
+c'è il case sensitive
+si usa la camelCase
+
+dichiarazione con let o var
+meglio utilizzare let
+tipizzazione dinamica, non devo dichiarare il tipo!
+const variabile, non posso più cambiare il contenuto della variabile
