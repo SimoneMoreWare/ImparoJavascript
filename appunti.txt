@@ -23,3 +23,12 @@ dichiarazione con let o var
 meglio utilizzare let
 tipizzazione dinamica, non devo dichiarare il tipo!
 const variabile, non posso più cambiare il contenuto della variabile
+
+i numeri sono tutti un number
+tofixed ci permette di definire quanti decimali vogliamo dopo la virgola
+Number() permette di castare una stringa numerica in number
+si può incrementare con ++ e decrementare con --
+=== valori uguali e in tipo
+== valori uguali 
+!== valori diversi ma stesso tipo
+!= valori diversi
