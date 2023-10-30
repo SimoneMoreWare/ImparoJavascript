@@ -32,3 +32,25 @@ si può incrementare con ++ e decrementare con --
 == valori uguali 
 !== valori diversi ma stesso tipo
 != valori diversi
+
+In JavaScript, i template literals (o template strings) sono una caratteristica che consente di creare stringhe multilinea e interpolare facilmente variabili o espressioni all'interno di una stringa. Sono delimitati da backticks (`) anziché da apici singoli o doppi.
+Ecco un esempio di come funzionano i template literals:
+const nome = "Mario";
+const età = 30;
+const messaggio = `Ciao, il mio nome è ${nome} e ho ${età} anni.`;
+console.log(messaggio);
+In questo esempio, il template literal è racchiuso tra backticks e all'interno della stringa possiamo utilizzare ${} per interpolare variabili o espressioni. Questo significa che il valore delle variabili nome ed età verrà inserito nella stringa in modo dinamico quando la variabile messaggio viene creata. Il risultato sarà:
+Ciao, il mio nome è Mario e ho 30 anni.
+I template literals consentono anche di creare stringhe multilinea senza dover utilizzare caratteri di escape come \n. Ad esempio:
+const testoMultilinea = `
+Questa è una stringa multilinea.
+Puoi andare a capo senza problemi.
+`;
+console.log(testoMultilinea);
+Questo produrrà una stringa multilinea come previsto.
+I template literals sono un modo più flessibile e leggibile per lavorare con stringhe in JavaScript rispetto alla concatenazione di stringhe tradizionale o all'uso di operatori +.
+
+in javascript i metodi delle stringhe sono pressoche gli stessi di java
+
+
+
