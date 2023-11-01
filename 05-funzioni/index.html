@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Funzioni</title>
+    </head>
+    <body>
+        <button>Sono un bottone</button>
+
+        <script>
+            const myButton = document.querySelector('button'); //my button riferimento a queryselector ecc..
+            let nome = "Mamt";
+
+            myButton.onclick = function(){ //funzione anonima, non hanno nome, onclick è un evento , si usano le funzioni anonime nei callback
+                console.log("hello");
+            }
+
+            function ciao(){
+                console.log(nome);
+            }
+
+            //scope lo stesso di altri linguaggi di programmazione
+
+            ciao();
+        </script>
+    </body>
+</html>
