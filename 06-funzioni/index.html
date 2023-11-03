@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <tilte>Funzioni 02</tilte>
+    </head>
+    <body>
+        <input type="text" name="nome" placeholder="nome persona">
+        <button>saluta!</button>
+        <h1>Nessun saluto</h1>
+    </body>
+
+    <script>
+        let button = document.querySelector('button');
+        let title = document.querySelector('h1');
+        let nome = document.querySelector('input');
+
+        function saluta(nome){
+            title.innerHTML = `Ciao ${nome.value}`;
+        }
+
+        button.addEventListener('click',()=>this.saluta(nome));//evento listener sul buttone di tipo click.
+    
+        
+    
+    </script>
+
+</html>
