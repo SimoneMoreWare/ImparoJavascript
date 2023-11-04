@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>03-funzioni</title>
+    </head>
+
+    <body>
+        <input type="text" name="numero" placeholder="inserisci numero">
+        <button>Calcola cubo</button>
+        <h1>-</h1>
+
+        <script>
+            let bottone = document.querySelector('button');
+            let numero = document.querySelector('input');
+            let output = document.querySelector('h1');
+            
+            function calcolaCubo(n){
+                return n*n*n;
+            }
+
+            bottonex.addEventListener('click',()=>{
+                output.innerHTML = calcolaCubo(numero.value);
+            });//evento listener sul buttone di tipo click.
+
+            
+
+        </script>
+    </body>
+
+
+</html>
