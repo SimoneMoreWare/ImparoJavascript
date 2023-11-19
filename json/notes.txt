@@ -1,0 +1,13 @@
+json
+javascript object notation
+è uno standard di passaggio dati
+è un modo di "passare i dati molto simile agli oggetti di javascript"
+formato: text based (formato testo)
+rappresenta dati strutturati (riprendono la sintassi degli oggetti di javascript)
+rappresenta una struttura di dati basata sulla sintassi degli oggetti javascript
+passiamo una stringa che verrà parsata e trasformarla in dati effettivi
+abbiamo il nostro oggetto, lo scriviamo in json e diventa una stringa, lo mandiamo da una determinata parte e scritto in quel modo lo posso ritrasformare da stringa in dati
+non si hanno metodi all'interno dei file json
+non si possono usare '' 
+possiamo avere numeri e bollean
+possiamo descrivere un oggetto totalmente con i suoi elementi
