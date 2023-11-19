@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Json</title>
+    </head>
+
+    <body>
+        <script>
+            let requestURL = './classe.json'; //percorso al file json
+            let request = new XMLHttpRequest(); //e' cosi
+            request.open('GET',requestURL);//tipo di richiesta
+            request.responseType='json';
+            request.send();
+
+            request.onload = function(){////dobbiamo aspettare il file... onload (evento)
+                const classe = request.response;
+                console.log(classe);
+            }
+        </script>
+    </body>
+</html>
